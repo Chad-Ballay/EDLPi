@@ -30,3 +30,6 @@ Total Price: ~$415.00  (You can cut corners by reducing the number of Raspberry 
 The rough idea is that all the Raspberry Pi's are going to be built into a tower case, and wired up to the switch.  The Raspberry Pi's and the wireless router will all be powered by a USB power bank.  (The switch will have to be plugged in since I was unable to find one that was USB powered.)  The wireless router will be setup as a gateway for the devices and also what you'll connect to for administrating the system.  This way the system is fairly self-contained and portable for demo purposes.
 
 <img src="images/EDLPi_topology.png" width="350"/>
+
+## Image the Raspberry Pi's
+First step is to flash each of the SD cards with the Hypriot OS.  At the time of this doc being created the current release was version 1.5.  You can download it <a href="https://blog.hypriot.com/downloads/">here</a>.
