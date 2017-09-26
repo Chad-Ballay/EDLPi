@@ -24,5 +24,9 @@ I'm building upon <a href="https://github.com/Project31/ansible-kubernetes-opens
 
 Total Price: ~$415.00  (You can cut corners by reducing the number of Raspberry Pi's you use.  Technically you don't need an active/passive master or more than one minion.)
 
+<img src="images/rawgoods.png" width="350"/>
+
 ## Rough Topology
+The rough idea is that all the Raspberry Pi's are going to be built into a tower case, and wired up to the switch.  The Raspberry Pi's and the wireless router will all be powered by a USB power bank.  (The switch will have to be plugged in since I was unable to find one that was USB powered.)  The wireless router will be setup as a gateway for the devices and also what you'll connect to for administrating the system.  This way the system is fairly self-contained and portable for demo purposes.
+
 <img src="images/EDLPi_topology.png" width="350"/>
