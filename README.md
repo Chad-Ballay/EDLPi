@@ -10,7 +10,7 @@ The goal here is to build a Raspberry Pi cluster that can be scaled up with ease
 
 In other words, going from several atomic systems with multiple failure points into one giant, fault tolerant system.
 
-I'm building upon <a href="https://github.com/Project31/ansible-kubernetes-openshift-pi3" target="_blank">this existing guide</a> and <a href="https://medium.com/@maumribeiro/a-fullstack-epic-part-i-a-rest-api-in-go-accessing-mongo-db-608b46e969cd" target="_blank"> this one as well</a> but my goal is to make my cluster have an Active/Passive pair of master nodes to reduce the chance of a catastrophic failure.  I will also add in CI/CD as well several other items to flesh this out into a decent homelab.
+I'm building upon <a href="https://github.com/Project31/ansible-kubernetes-openshift-pi3" target="_blank">this existing guide</a> and <a href="https://medium.com/@maumribeiro/a-fullstack-epic-part-i-a-rest-api-in-go-accessing-mongo-db-608b46e969cd" target="_blank"> this one as well</a> but my goal is to make my cluster have an Active/Passive pair of master nodes to reduce the chance of a catastrophic failure.  I will also add in CI/CD as well several other items to flesh this out into a decent homelab.  
 
 ## Shopping List
 * <a href="https://www.amazon.com/gp/product/B00YRYS4T4/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1" target="_blank">Anker 10 port 60w usb charger</a>
@@ -22,4 +22,4 @@ I'm building upon <a href="https://github.com/Project31/ansible-kubernetes-opens
 * <a href="https://www.amazon.com/gp/product/B01CD5VC92/ref=oh_aui_detailpage_o02_s01?ie=UTF8&amp;psc=1" target="_blank">6 Raspberry Pi model 3</a>
 * <a href="https://www.amazon.com/gp/product/B01CD5VC92/ref=oh_aui_detailpage_o02_s01?ie=UTF8&amp;psc=1" target="_blank">Ethernet Patch cables</a>
 
-Total Price: ~$375.00
+Total Price: ~$415.00  (You can cut corners by reducing the number of Raspberry Pi's you use.  Technically you don't need an active/passive master or more than one minion.)
