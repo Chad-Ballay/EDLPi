@@ -23,3 +23,6 @@ I'm building upon <a href="https://github.com/Project31/ansible-kubernetes-opens
 * <a href="https://www.amazon.com/gp/product/B01CD5VC92/ref=oh_aui_detailpage_o02_s01?ie=UTF8&amp;psc=1" target="_blank">Ethernet Patch cables</a>
 
 Total Price: ~$415.00  (You can cut corners by reducing the number of Raspberry Pi's you use.  Technically you don't need an active/passive master or more than one minion.)
+
+## Rough Topology
+<img src="images/EDLPi_topology.png" width="350"/>
