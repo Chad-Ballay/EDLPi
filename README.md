@@ -37,6 +37,8 @@ Here is a picture of the cluster.  I haven't made a rack or ziptied any of the c
 <img src="images/physicalSetup.png" alt="Picture of assembled goods" width="350"/>
 
 ## Image the Raspberry Pi's
-First step is to flash each of the SD cards with the Hypriot OS.  At the time of this doc being created the current release was version 1.5.  You can download it <a href="https://blog.hypriot.com/downloads/">here</a>.
+First step is to flash each of the SD cards with the Hypriot OS.  At the time of this doc being created the current release was version 1.5.  You can download it <a href="https://blog.hypriot.com/downloads/">here</a>.  
 
 <img src="images/downloadHypriot.png" alt="Download of Hypriot OS" width="350" />
+
+You can also get the instructions for how to flash the SD cards there.  Another solution is to use the Flash tool provided by Stefen Scherer <a href="https://github.com/hypriot/flash">here</>.  This is what I used.
