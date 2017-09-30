@@ -51,4 +51,10 @@ No matter what you do you'll now have 6 seperate Raspberry Pi's running Hypriot 
 ## Networking Cluster Config
 The Hypriot guide here has some pretty complex mechanisms for identifying MAC addresses and IP addresses.  If you have the type of WiFI router that I recommend you can bypass those instructions for some simpler work.
 
-First step is to plug in the router.  Once it is booted up you'll see a SSID appear that matches the one printed on the router itself.  If you don't then please press the manual reset button on the router and try again.  Next you'll want to direct your machine to connect to that SSID and then to load <a href="http://tplinkwifi.net/">http://tplinkwifi.net/</a>
+First step is to plug in the router.  Once it is booted up you'll see a SSID appear that matches the one printed on the router itself.  If you don't then please press the manual reset button on the router and try again.  Next you'll want to direct your machine to connect to that SSID and then to load <a href="http://tplinkwifi.net/">http://tplinkwifi.net/</a>.  
+
+<img src="images/wifiLoginPage.png" alt="Wifi setup login page" width="350" />
+
+You can refer to the router's instructions for further details but the point is that you want to use the HotSpot mode to allow you to connect to an existing wifi network and then share it through the ethernet and back out as a differnt wifi network.  This allows your cluster to pull down images as well as allows you to admin the cluster easily through your own laptop.
+
+<img src="images/hotSpotSetup.png" alt="HotSpot setup" width="350" />
