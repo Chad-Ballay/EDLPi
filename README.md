@@ -55,6 +55,10 @@ First step is to plug in the router.  Once it is booted up you'll see a SSID app
 
 <img src="images/wifiLoginPage.png" alt="Wifi setup login page" width="350" />
 
-You can refer to the router's instructions for further details but the point is that you want to use the HotSpot mode to allow you to connect to an existing wifi network and then share it through the ethernet and back out as a differnt wifi network.  This allows your cluster to pull down images as well as allows you to admin the cluster easily through your own laptop.
+You can refer to the router's instructions for further details but the point is that you want to use the HotSpot mode to allow you to connect to an existing wifi network and then share it through the ethernet and back out as a differnt wifi network.  This allows your cluster to pull down images as well as allows you to admin the cluster easily through your own laptop.  I am useing the SSID EDLPi for my network name.
 
 <img src="images/hotSpotSetup.png" alt="HotSpot setup" width="350" />
+
+If the physical setup is correct and if you flashed the SD cards correctly then you should reboot the whole cluster once the HotSpot setup is done.  Connect to the SSID(EDLPi) and then load the admin page at <a href="http://tplinkwifi.net/">http://tplinkwifi.net/</a>.  Go into DHCP and then DHCP Client List.  If you are setup correctly you'll see a list similar to this with the MAC addresses and IP's of your devices plus your own laptop.
+
+<ing src="images/macAndIpAddresses.png" alt="Mac and IP list" width="350" />
