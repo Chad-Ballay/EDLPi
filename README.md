@@ -47,3 +47,8 @@ Once you get the image you then have to flash it to your microSD cards one at a 
 You can also get the instructions for how to flash the SD cards there.  Another solution is to use the Flash tool provided by Stefen Scherer <a href="https://github.com/hypriot/flash">here</a>.  This is what I used.
 
 No matter what you do you'll now have 6 seperate Raspberry Pi's running Hypriot and docker on them.  The next step will be making them each aware of each other through networking changes and IP changes.
+
+## Networking Cluster Config
+The Hypriot guide here has some pretty complex mechanisms for identifying MAC addresses and IP addresses.  If you have the type of WiFI router that I recommend you can bypass those instructions for some simpler work.
+
+First step is to plug in the router.  Once it is booted up you'll see a SSID appear that matches the one printed on the router itself.  If you don't then please press the manual reset button on the router and try again.  Next you'll want to direct your machine to connect to that SSID and then to load <a href="http://tplinkwifi.net/">http://tplinkwifi.net/</a>
