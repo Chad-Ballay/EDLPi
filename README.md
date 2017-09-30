@@ -41,4 +41,9 @@ First step is to flash each of the SD cards with the Hypriot OS.  At the time of
 
 <img src="images/downloadHypriot.png" alt="Download of Hypriot OS" width="350" />
 
+Once you get the image you then have to flash it to your microSD cards one at a time.  The hypriot site has instructions <a href="https://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/">here</a>.  
+<img src="images/osFlashSetup.png" alt="Flashing Hypriot OS onto microSD card" width="350" />
+
 You can also get the instructions for how to flash the SD cards there.  Another solution is to use the Flash tool provided by Stefen Scherer <a href="https://github.com/hypriot/flash">here</a>.  This is what I used.
+
+No matter what you do you'll now have 6 seperate Raspberry Pi's running Hypriot and docker on them.  The next step will be making them each aware of each other through networking changes and IP changes.
