@@ -14,7 +14,7 @@ I'm building upon <a href="https://github.com/Project31/ansible-kubernetes-opens
 
 ## Shopping List
 * <a href="https://www.amazon.com/gp/product/B00YRYS4T4/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1" target="_blank">Anker 10 port 60w usb charger</a>
-* <a href="https://www.amazon.com/gp/product/B00TQEX8BO/ref=oh_aui_detailpage_o01_s00?ie=UTF8&amp;psc=1" target="_blank">Wireless router</a>
+* <a href="https://www.amazon.com/gp/product/B00TQEX8BO/ref=oh_aui_detailpage_o01_s00?ie=UTF8&amp;psc=1" target="_blank">~~Wireless router~~</a> (Don't go with this one.  Go ahead and upgrade to the <a href="http://a.co/jdwKLgG">5ghz version</a> for future compatibility.)
 * <a href="https://www.amazon.com/gp/product/B011U1LMKE/ref=oh_aui_detailpage_o02_s00?ie=UTF8&amp;psc=1" target="_blank">Micro USB cords</a>
 * <a href="https://www.amazon.com/gp/product/B010Q57SEE/ref=oh_aui_detailpage_o02_s00?ie=UTF8&amp;psc=1" target="_blank">6 class 10 micro SD cards</a>
 * <a href="https://www.amazon.com/gp/product/B00C5FK7OW/ref=oh_aui_detailpage_o02_s01?ie=UTF8&amp;psc=1" target="_blank">Switch</a>
