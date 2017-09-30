@@ -61,4 +61,4 @@ You can refer to the router's instructions for further details but the point is 
 
 If the physical setup is correct and if you flashed the SD cards correctly then you should reboot the whole cluster once the HotSpot setup is done.  Connect to the SSID(EDLPi) and then load the admin page at <a href="http://tplinkwifi.net/">http://tplinkwifi.net/</a>.  Go into DHCP and then DHCP Client List.  If you are setup correctly you'll see a list similar to this with the MAC addresses and IP's of your devices plus your own laptop.
 
-<ing src="images/macAndIpAddresses.png" alt="Mac and IP list" width="350" />
+<img src="images/macAndIpAddresses.png" alt="Mac and IP list" width="350" />
